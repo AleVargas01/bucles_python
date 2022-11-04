@@ -32,3 +32,11 @@ numeros = [1, 5, -1, 6, 10, 2, -5]
 
 # Imprimir en pantalla la variable temperaturas
 # El resultado final de la suma deberá ser 24
+
+suma_total = 0
+
+for numero in numeros:
+
+    if numero > 0:
+        suma_total += numero
+print(f'La suma de todas las edades es:\n{suma_total}')

@@ -15,7 +15,7 @@
 
 # Alumno:
 # Crear una variable del tipo lista
-# llamada temperaturas --> crearla vacia
+# llamada temperaturas --> crear la vacia
 # Utilizar un bucle "for" con "range"
 # para solicitarle al usuario que ingrese 5
 # temperaturas utilizando input
@@ -35,3 +35,11 @@
 # Imprimir en pantalla la variable temperaturas
 # Deberá observar sus 5 temperaturas ingresadas
 # por consola
+
+temperaturas = []
+
+for i in range(5):
+    #temperatura = float(input('Ingrese la temperatura del sensor: \n'))
+    temperaturas.append(input('Ingrese la temperatura del sensor: \n'))
+
+print(f'Las temperaturas ingresadas son: {temperaturas}')
